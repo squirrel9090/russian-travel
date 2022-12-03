@@ -1,0 +1,27 @@
+.header__language-links {
+  display: grid;
+  grid-template-columns: repeat(2, 29px);
+  grid-column-gap: 18px;
+  margin: 0;
+  list-style: none;
+  align-items: flex-end;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+  .header__language-links {
+    padding: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__language-links {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

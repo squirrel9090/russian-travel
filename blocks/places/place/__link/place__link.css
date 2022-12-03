@@ -1,0 +1,32 @@
+.place__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding-top: 16px;  
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .place__link {
+    padding-top: 12px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .place__link {
+    padding-top: 12px; 
+  }
+}
+
+@media (max-width: 320px) {
+  .place__link {
+    margin-left: 16px;
+  }
+}

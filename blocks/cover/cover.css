@@ -1,0 +1,56 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/cover-trains.jpg");
+  max-width: 1184px;
+  aspect-ratio: 1.6;
+  position: relative;
+  margin: 12px auto 0;
+  background-position: center center;
+  background-size: cover; /*для перекрытия фона*/
+  z-index: 1;
+  padding-bottom: 36px;
+}
+
+.cover::before {
+	/* псевдоблок без содержимого не будет отображаться. зададим его содержимое следующим образом */ 
+	/* '' означает пустую строку, но можно указать и что-то другое, даже так: ':heart_eyes:'. тогда этот символ отобразится в браузере */
+  content: ''; 
+
+	/* используем абсолютное позиционирование и "растянем" элемент по сторонам */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;/* это нужно, чтобы подложка оказалась под текстом, а не над ним */
+  background-color: #000;
+  opacity: 0.3;
+  transition: opacity 350ms ease;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+  }
+}
