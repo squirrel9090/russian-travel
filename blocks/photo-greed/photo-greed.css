@@ -17,7 +17,7 @@
   .photo-greed {
     max-width: calc(100% - 24px * 2);
     grid-template-columns: repeat(2, 1fr);
-    gap: 11px 16px;
+    gap: 13px 16px;
   }
 }
 

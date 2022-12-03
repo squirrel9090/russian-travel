@@ -5,7 +5,7 @@
   align-items: center;
   background-image: url("../../../images/cover-trains.jpg");
   max-width: 1184px;
-  aspect-ratio: 1.6;
+  aspect-ratio: 8 / 5;
   position: relative;
   margin: 12px auto 0;
   background-position: center center;
@@ -45,7 +45,6 @@
 @media (max-width: 768px) {
   .cover {
     max-width: 768px;
-    margin: 0;
   }
 }
 

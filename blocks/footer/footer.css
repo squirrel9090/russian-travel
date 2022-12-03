@@ -1,7 +1,7 @@
 .footer {
     max-width: 1184px;
     margin: 0 auto;
-    padding: 92px 0 24px;
+    padding: 52px 0 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -10,13 +10,14 @@
 @media (max-width: 1024px) {
     .footer {
       max-width: 928px;
+      padding: 57px 0 0px;
     }
 }
 
 @media (max-width: 768px) {
   .footer {
     max-width: 720px;
-    padding: 51px 0 24px;
+    padding: 51px 0 0px;
   }
 }
 

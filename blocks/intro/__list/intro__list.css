@@ -1,9 +1,13 @@
 .intro__list {
-    color: #fff;
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 /*@media (max-width: 320px) {
