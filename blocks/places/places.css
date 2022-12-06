@@ -1,19 +1,20 @@
 .places{
-    max-width: calc(100% - 148px * 2);
+    max-width: 76.9%;
     margin: 0 auto;
-    padding: 92px 0 0;
+    padding: 92px 0 12px;
 }
 
 @media (max-width: 1024px) {
   .places {
      max-width: calc(100% - 48px * 2);
+     padding: 88px 0 24px;
   }
 }
 
 @media (max-width: 768px) {
   .places {
      max-width: calc(100% - 24px * 2);
-     padding: 86px 0 16px;
+     padding: 88px 0 16px;
   }
 }
 

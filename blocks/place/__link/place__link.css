@@ -1,12 +1,14 @@
 .place__link {
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   text-decoration-line: underline;
-  color: #FFFFFF;
-  padding-top: 16px;  
+  color: #FFF;
+  width: fit-content;
+}
+
+.place__link:hover {
+    opacity: 0.8;
 }
 
 .place__link:hover {
@@ -15,18 +17,19 @@
 
 @media (max-width: 1024px) {
   .place__link {
-    padding-top: 14px; 
+    margin-top: 10px; 
   }
 }
 
 @media (max-width: 768px) {
   .place__link {
-    padding-top: 12px; 
+    margin-top: 0; 
   }
 }
 
 @media (max-width: 320px) {
   .place__link {
     margin-left: 16px;
+    margin: 0;
   }
 }

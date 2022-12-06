@@ -15,7 +15,7 @@
 
 @media (max-width: 1024px) {
   .header__language-links {
-    padding: 0;
+    padding-bottom: 5px;
   }
 }
 
@@ -23,5 +23,7 @@
   .header__language-links {
     font-size: 18px;
     line-height: 1.11;
+    grid-column-gap: 10px;
+    align-items: center;
   }
 }

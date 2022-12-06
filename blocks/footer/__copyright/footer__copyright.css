@@ -6,10 +6,31 @@
   line-height: 1.14;
   text-align: right;
   color: #FFFFFF;
+  margin: 0;
 }
+
+@media (max-width: 777px) {
+  .footer__copyright {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 733px) {
+  .footer__copyright {
+    font-size: 12px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+/*@media (max-width: 689px) {
+  .footer__copyright {
+    font-size: 13px;
+  }
+}*/
 
 @media (max-width: 320px) {
   .footer__copyright {
-    font-size: 12px;
+    margin-top: 17px;
   }
 }

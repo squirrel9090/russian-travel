@@ -3,6 +3,22 @@
   color: #FFFFFF;
 }
 
+@media  (max-width: 768px) {
+  .footer__item {
+  margin-right: 1px;
+  margin-top: -6px;
+
+  }
+}
+
+@media  (max-width: 732px) {
+  .footer__item {
+  margin-right: 0;
+  margin-bottom: 32px;
+
+  }
+}
+
 @media  (max-width: 320px) {
   .footer__item {
   margin-right: 0;
