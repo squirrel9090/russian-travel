@@ -8,12 +8,6 @@
     width: 100%;
   }
 }
-
-@media (max-width: 768px) {
-  .cover {
-    max-width: 768px;
-  }
-}
   
 @media (max-width: 320px) {
   .cover {
