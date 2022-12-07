@@ -14,7 +14,6 @@
 
 @media (max-width: 768px) {
   .footer__link {
-    font-size: 16px;
     line-height: 1.14; 
    }
 }
@@ -36,6 +35,5 @@
 @media (max-width: 320px) {
     .footer__link {
       font-size: 24px;
-      line-height: 1; 
      }
   }

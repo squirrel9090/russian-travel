@@ -31,6 +31,7 @@
     margin: 0 auto;
   }
   .place__paragraph:nth-of-type(2n) {
-    margin-top: 3px;
+    margin-top: 9px;
+    padding-bottom: 0;
 }
 }

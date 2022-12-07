@@ -39,7 +39,7 @@
 
 @media (max-width: 320px) {
   .intro__title {
-    font-size: 32px;
     max-width: calc(100% - 19px * 2);
+    padding-bottom: 40px;
   }
 }

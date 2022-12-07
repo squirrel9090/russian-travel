@@ -21,8 +21,6 @@
 
 @media  (max-width: 320px) {
   .footer__item {
-  margin-right: 0;
-  margin-bottom: 32px;
-
+    margin-bottom: 38px;
   }
 }
